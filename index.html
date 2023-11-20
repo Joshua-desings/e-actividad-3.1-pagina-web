@@ -17,29 +17,17 @@
         <!-- Cabecera e Introducción -->
 
         <nav>
-
-
-            <!--Hice un par de Cambio aca-->
-
-            <input type="checkbox" id="check">
-            <label for="check" class="Menú-Responsivo">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-
             <!-- Menú de navegación -->
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Acerca-de">Acerca de</a></li>
-                <li><a href="#Profesores">Información</a></li>
-                <li><a href="#Carreras">Carreras</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
-            </ul>
-
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Información</a>
+            <a href="#">Carreras</a>
+            <a href="#">Contacto</a>
         </nav>
 
         <!-- Sección "Inicio" hecha por Yony Araujo -->
 
-        <section id="Inicio" class="contenedor-header">
+        <section class="contenedor-header">
             <h1>¡Bienvenido a la Universidad Valle del Momboy (UVM)!</h1> <!-- Título principal de bienvenida -->
             <h2>La Universidad de tus Sueños</h2> <!-- Subtítulo de bienvenida -->
         </section>
@@ -59,34 +47,29 @@
 
         <!-- Sección "Acerca de" hecha por Diego Briceño -->
 
-        <section id="Acerca-de" class="contenedor-acerca-de">
+        <section class="contenedor-acerca-de">
             <div class="contenedor">
-                <h2 class="titulo">Acerca de la UVM</h2>
+                <h2 class="titulo">Acerca de la UVM</h2> <!-- Título de la sección "Acerca de" -->
                 <div class="contenido-acerca-de">
-                    <div class="contenido-individual-acerca-de mision">
-                        <label class="titulo-container">
-                            <div class="imagen-container">
-                                <img src="img/Misión.jpg" alt="Misión UVM">
-                                <div class="overlay"></div>
-                            </div>
-                            <div class="texto-container">
-                                <h3>Misión</h3>
-                                <p>Promover con ética y calidad procesos de relevancia, cultivar un ambiente de aprendizaje inclusivo y colaborativo.</p>
-                            </div>
-                        </label>
+
+                    <div class="contenido-individual-acerca-de">
+                        <img src="img/mision2.png" alt=""> <!-- Imagen relacionada con la misión de la UVM -->
+                        <h3>Misión</h3> <!-- Título de la misión -->
+                        <p>
+                            Promover con ética y calidad procesos de relevancia que propicien el Desarrollo Humano Sustentable, 
+                            mediante la formación integral de personas altamente participativas, competentes y emprendedoras; 
+                            la investigación con pertinencia social y la interacción activa con el entorno.
+                        </p> <!-- Descripción de la misión -->
                     </div>
-        
-                    <div class="contenido-individual-acerca-de vision">
-                        <label class="titulo-container">
-                            <div class="imagen-container">
-                                <img src="img/Visión.jpg" alt="Visión UVM">
-                                <div class="overlay"></div>
-                            </div>
-                            <div class="texto-container">
-                                <h3>Visión</h3>
-                                <p>Ser reconocidos como líderes en la educación superior, impulsando la innovación, la investigación y el compromiso comunitario.</p>
-                            </div>      
-                        </label>
+
+                    <div class="contenido-individual-acerca-de">
+                        <img src="img/vision2.png" alt=""> <!-- Imagen relacionada con la visión de la UVM -->
+                        <h3>Visión</h3> <!-- Título de la visión -->
+                        <p>
+                            Nuestra misión es proporcionar a nuestros estudiantes una educación que no solo enriquezca sus conocimientos 
+                            y habilidades, sino que también fomente un profundo sentido de responsabilidad hacia el medio ambiente y la sociedad 
+                            en general. Creemos en la importancia de formar ciudadanos conscientes y comprometidos con la sostenibilidad.
+                        </p> <!-- Descripción de la visión -->
                     </div>
                 </div>
             </div>
@@ -94,7 +77,7 @@
 
         <!-- Sección "profesores" hecha por Diego Briceño -->
 
-        <section id="Profesores" class="contenedor-profesores">
+        <section class="contenedor-profesores">
             <div class="contenedor">
                 <h2 class="titulo">Que dicen nuestros docentes</h2> <!-- Título de la sección "profesores" -->
                 <div class="cartas-profesor">
@@ -134,78 +117,37 @@
 
         <!-- Sección "Carreras" hecha por Diego Briceño -->
 
-        <section id="Carreras" class="contenedor-carreras">
+        <section class="contenedor-carreras">
             <div class="contenedor">
                 <h2 class="titulo">Carreras que ofertamos</h2> <!-- Título de la sección "Carreras" -->
                 <div class="contenedor-carreras-ofertadas">
-                    <div class="carrousel">
-                        <div class="conteCarrousel">
-                            <div class="itemCarrousel" id="itemCarrousel-1">
-                                <div class="itemCarrouselTarjeta">
-                                    <img src="img/carrousel1.jpg" alt="ingenieria en computación">
-                                </div>
-
-                                <div class="itemCarrouselTitulo1">
-                                    <h2>Ingeniería en Computación</h2>
-                                </div>
-
-                                <div class="itemCarrouselArrows">
-                                    <a href="#itemCarrousel-3">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </a>
-                                    <a href="#itemCarrousel-2">
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="itemCarrousel" id="itemCarrousel-2">
-                                <div class="itemCarrouselTarjeta2">
-                                    <img src="img/carrousel2.jpg" alt="derecho">
-                                </div>
-
-                                <div class="itemCarrouselTitulo2">
-                                    <h2>Derecho</h2>
-                                </div>
-
-                                <div class="itemCarrouselArrows">
-                                    <a href="#itemCarrousel-1">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </a>
-                                    <a href="#itemCarrousel-3">
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="itemCarrousel" id="itemCarrousel-3">
-                                <div class="itemCarrouselTarjeta">
-                                    <img src="img/carrousel3.jpg" alt="administracion empresas"  >
-                                </div>
-
-                                <div class="itemCarrouselTitulo3">
-                                    <h2>Administración comercial</h2>
-                                </div>
-
-                                <div class="itemCarrouselArrows">
-                                    <a href="#itemCarrousel-2">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </a>
-                                    <a href="#itemCarrousel-1">
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="conteCarrouselController">
-                            <a href="#itemCarrousel-1">•</a>
-                            <a href="#itemCarrousel-2">•</a>
-                            <a href="#itemCarrousel-3">•</a>
-                        </div>
+                    <img src="img/carreras.png" alt="" class="imagen-carreras"> <!-- Imagen relacionada con las carreras -->
+                    <div class="contenido-carreras">
+                        <h3><span>1</span>Ingeniería en Computación</h3> <!-- Título de la primera carrera -->
+                        <p>
+                            La Ingeniería en Computación es una disciplina en constante evolución que combina 
+                            la informática, la electrónica y la ingeniería para formar profesionales altamente 
+                            capacitados en la creación y gestión de sistemas de computadoras y software.
+                        </p> <!-- Descripción de la primera carrera -->
+                        <h3><span>2</span>Derecho</h3> <!-- Título de la segunda carrera -->
+                        <p>
+                            El Derecho es una disciplina fascinante y fundamental que rige nuestra sociedad y 
+                            define nuestras interacciones. Los abogados son los guardianes de la justicia, 
+                            defensores de los derechos humanos y solucionadores de conflictos.
+                        </p> <!-- Descripción de la segunda carrera -->
+                        <h3><span>3</span>Administración de Empresas</h3> <!-- Título de la tercera carrera -->
+                        <p>
+                            Lo que hace que esta carrera sea tan atractiva es su amplitud. Puedes especializarte 
+                            en áreas como marketing, finanzas, recursos humanos, gestión de proyectos, emprendimiento 
+                            y muchas otras. Esto te brinda la flexibilidad para adaptar tu educación a tus intereses y 
+                            aspiraciones profesionales.
+                        </p> <!-- Descripción de la tercera carrera -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Sección "Formulario" hecho por Jesus Garcia -->
+        <!-- Sección "Formulario" hecha por Jesus Garcia -->
 
         <section class="formulario">
             <div class="contenedor">
@@ -231,7 +173,7 @@
 
     <!-- Sección Pie de página y Redes sociales hecha por Jesus Garcia -->
 
-    <footer id="Contacto">
+    <footer>
 
         <div class="contenedor-footer">
             <div class="contenido-footer">
