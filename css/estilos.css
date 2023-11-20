@@ -1,0 +1,374 @@
+/* Los estilos fueron aplicados en conjunto entre los 3*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #5A0000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Cabecera */
+
+header {
+    width: 100%;
+    height: 620px;
+    
+    background: #55c931;
+
+    
+    background: -webkit-linear-gradient(to right, hsla(113, 89%, 72%, 0.350), hsla(96, 40%, 43%, 0.7)), url(../img/Listo.png);
+
+    
+    background: linear-gradient(to right,  hsla(113, 89%, 72%, 0.350), hsla(96, 40%, 43%, 0.7)), url(../img/Listo.png);
+
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 50;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-size: larger;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .contenedor-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenedor-header h1{
+    font-size: 50px;
+    color:#fff;
+}
+
+.contenedor-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-weight: bold;
+    text-decoration: underline;
+    color:#610000c9;
+}
+
+.estilo-ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*  Acerca de la uvm */
+
+.contenedor-acerca-de{
+    background: #e4e4e4;
+    padding-bottom: 30px;
+}
+
+
+.contenido-acerca-de{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-individual-acerca-de{
+    width: 40%;
+    text-align: center;
+}
+
+.contenido-individual-acerca-de img{
+    width: 100%;
+}
+
+.contenido-individual-acerca-de h3{
+    margin: 10px 0;
+}
+
+.contenido-individual-acerca-de p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* Profesores */
+
+.cartas-profesor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartas-profesor .carta-individual{
+    background: #55C931;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    margin: 5px;
+}
+
+.cartas-profesor .carta-individual img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cartas-profesor .carta-individual > .contenido-texto-carta{
+    width: 60%;
+    color: #ffffff;
+}
+
+.cartas-profesor .carta-individual > .contenido-texto-carta p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+
+/* Carreras que ofertamos*/
+
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-carreras-ofertadas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-carreras{
+    width: 50%;
+    height: 40%;
+}
+
+.contenedor-carreras-ofertadas .contenido-carreras{
+    width: 48%;
+}
+
+.contenido-carreras h3{
+    margin-bottom: 15px;
+}
+
+.contenido-carreras h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-carreras p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* Formulario */
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    max-width: 400px;
+    margin: 35px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"], /* Estilo para el campo de correo electrónico */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para los botones */
+button[type="submit"],
+button[type="reset"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+}
+
+/* Estilos al pasar el mouse sobre los botones */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"]:hover {
+    background-color: #af0505; /* Cambia el color de fondo a rojo al pasar el mouse */
+}
+
+/* Estilos para los errores de validación */
+input:invalid,
+textarea:invalid {
+    border-color: #ff0000;
+}
+
+/* Pie de pagina */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.contenedor-footer{
+    display: flex;  /* Usamos flexbox para colocar elementos en fila */
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    align-items: center; /* Centramos verticalmente los elementos */
+}
+
+.contenido-footer{
+    text-align: center;
+}
+
+.contenido-footer h4{
+
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+}
+
+.contenido-footer p{
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+    font-size: 20px;
+    margin-right: 10px; /* Espacio entre el título y los íconos */
+}
+
+.redes-sociales {
+    font-size: 24px; /* Tamaño de los íconos */
+    text-align: center;
+    margin-right: 10px; /* Espacio entre los íconos */
+    color: #faf9f9; /* Color de los íconos, ajusta según tu diseño */
+    text-decoration: none;
+    transition: color 0.3s;
+}
