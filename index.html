@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>UVM</title> <!-- Título de la página web -->
+    <meta charset="UTF-8"> <!-- Configuración de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista en dispositivos móviles -->
+    <link rel="stylesheet" href="css/estilos.css"> <!-- Enlace a la hoja de estilos CSS externa -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> <!-- Enlace a una fuente de Google Fonts -->
+    <script src="https://kit.fontawesome.com/04e0763c43.js" crossorigin="anonymous"></script> <!-- Enlace al kit de iconos Font Awesome -->
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Cabecera e Introducción -->
+
+        <nav>
+
+
+            <!--Hice un par de Cambio aca-->
+
+            <input type="checkbox" id="check">
+            <label for="check" class="Menú-Responsivo">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <!-- Menú de navegación -->
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Acerca-de">Acerca de</a></li>
+                <li><a href="#Profesores">Información</a></li>
+                <li><a href="#Carreras">Carreras</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- Sección "Inicio" hecha por Yony Araujo -->
+
+        <section id="Inicio" class="contenedor-header">
+            <h1>¡Bienvenido a la Universidad Valle del Momboy (UVM)!</h1> <!-- Título principal de bienvenida -->
+            <h2>La Universidad de tus Sueños</h2> <!-- Subtítulo de bienvenida -->
+        </section>
+
+        <div class="estilo-ola" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 450 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff"></path>
+            </svg>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Contenido Principal de la página web -->
+
+        <!-- Sección "Acerca de" hecha por Diego Briceño -->
+
+        <section id="Acerca-de" class="contenedor-acerca-de">
+            <div class="contenedor">
+                <h2 class="titulo">Acerca de la UVM</h2>
+                <div class="contenido-acerca-de">
+                    <div class="contenido-individual-acerca-de mision">
+                        <label class="titulo-container">
+                            <div class="imagen-container">
+                                <img src="img/Misión.jpg" alt="Misión UVM">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="texto-container">
+                                <h3>Misión</h3>
+                                <p>Promover con ética y calidad procesos de relevancia, cultivar un ambiente de aprendizaje inclusivo y colaborativo.</p>
+                            </div>
+                        </label>
+                    </div>
+        
+                    <div class="contenido-individual-acerca-de vision">
+                        <label class="titulo-container">
+                            <div class="imagen-container">
+                                <img src="img/Visión.jpg" alt="Visión UVM">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="texto-container">
+                                <h3>Visión</h3>
+                                <p>Ser reconocidos como líderes en la educación superior, impulsando la innovación, la investigación y el compromiso comunitario.</p>
+                            </div>      
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección "profesores" hecha por Diego Briceño -->
+
+        <section id="Profesores" class="contenedor-profesores">
+            <div class="contenedor">
+                <h2 class="titulo">Que dicen nuestros docentes</h2> <!-- Título de la sección "profesores" -->
+                <div class="cartas-profesor">
+
+                    <div class="carta-individual">
+                        <img src="img/profesor1.jpg" alt=""> <!-- Imagen del primer profesor -->
+                        <div class="contenido-texto-carta">
+                            <h4>Roberto</h4> <!-- Nombre del primer profesor -->
+                            <p>
+                                Aprende, no para acumular conocimientos como un tesoro personal, sino para emplear lo aprendido al servicio del mundo.
+                            </p> <!-- Cita del primer profesor -->
+                        </div>
+                    </div>
+
+                    <div class="carta-individual">
+                        <img src="img/profesor3.avif" alt=""> <!-- Imagen del segundo profesor -->
+                        <div class="contenido-texto-carta">
+                            <h4>Luis</h4> <!-- Nombre del segundo profesor -->
+                            <p>
+                                El buen maestro hace que el mal estudiante se convierta en bueno y el buen estudiante en superior.
+                            </p> <!-- Cita del segundo profesor -->
+                        </div>
+                    </div>
+
+                    <div class="carta-individual">
+                        <img src="img/profesor2.webp" alt=""> <!-- Imagen del tercer profesor -->
+                        <div class="contenido-texto-carta">
+                            <h4>Xavier</h4> <!-- Nombre del tercer profesor -->
+                            <p>
+                                La humanidad no es mala, solo está... Desinformada.
+                            </p> <!-- Cita del tercer profesor -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección "Carreras" hecha por Diego Briceño -->
+
+        <section id="Carreras" class="contenedor-carreras">
+            <div class="contenedor">
+                <h2 class="titulo">Carreras que ofertamos</h2> <!-- Título de la sección "Carreras" -->
+                <div class="contenedor-carreras-ofertadas">
+                    <div class="carrousel">
+                        <div class="conteCarrousel">
+                            <div class="itemCarrousel" id="itemCarrousel-1">
+                                <div class="itemCarrouselTarjeta">
+                                    <img src="img/carrousel1.jpg" alt="ingenieria en computación">
+                                </div>
+
+                                <div class="itemCarrouselTitulo1">
+                                    <h2>Ingeniería en Computación</h2>
+                                </div>
+
+                                <div class="itemCarrouselArrows">
+                                    <a href="#itemCarrousel-3">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </a>
+                                    <a href="#itemCarrousel-2">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="itemCarrousel" id="itemCarrousel-2">
+                                <div class="itemCarrouselTarjeta2">
+                                    <img src="img/carrousel2.jpg" alt="derecho">
+                                </div>
+
+                                <div class="itemCarrouselTitulo2">
+                                    <h2>Derecho</h2>
+                                </div>
+
+                                <div class="itemCarrouselArrows">
+                                    <a href="#itemCarrousel-1">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </a>
+                                    <a href="#itemCarrousel-3">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="itemCarrousel" id="itemCarrousel-3">
+                                <div class="itemCarrouselTarjeta">
+                                    <img src="img/carrousel3.jpg" alt="administracion empresas"  >
+                                </div>
+
+                                <div class="itemCarrouselTitulo3">
+                                    <h2>Administración comercial</h2>
+                                </div>
+
+                                <div class="itemCarrouselArrows">
+                                    <a href="#itemCarrousel-2">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </a>
+                                    <a href="#itemCarrousel-1">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conteCarrouselController">
+                            <a href="#itemCarrousel-1">•</a>
+                            <a href="#itemCarrousel-2">•</a>
+                            <a href="#itemCarrousel-3">•</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección "Formulario" hecho por Jesus Garcia -->
+
+        <section class="formulario">
+            <div class="contenedor">
+                <h2 class="titulo">Formulario de datos</h2> <!-- Título de la sección "Formulario" -->
+                <form action="database.php" method="post">
+                    <label for="nombre">Nombre Completo:</label> <!-- Etiqueta del campo Nombre Completo -->
+                    <input type="text" name="nombre" id="nombre" required> <!-- Campo para ingresar el nombre (obligatorio) -->
+                    <label for="correo">Correo Electrónico:</label> <!-- Etiqueta del campo Correo Electrónico -->
+                    <input type="email" name="correo" id="correo" required> <!-- Campo para ingresar el correo (obligatorio) -->
+                    <label for="ciudad">Ciudad:</label> <!-- Etiqueta del campo Ciudad -->
+                    <input type="text" name="ciudad" id="ciudad" required> <!-- Campo para ingresar la ciudad (obligatorio) -->
+                    <label for="telefono">Teléfono:</label> <!-- Etiqueta del campo Teléfono -->
+                    <input type="tel" name="telefono" id="telefono" required> <!-- Campo para ingresar el teléfono (obligatorio) -->
+                    <label for="comentarios">Comentarios:</label> <!-- Etiqueta del campo Comentarios -->
+                    <textarea name="comentarios" id="comentarios" rows="4"></textarea> <!-- Campo para ingresar comentarios (opcional) -->
+                    <button type="submit" name="enviar">Enviar Datos</button> <!-- Botón para enviar el formulario -->
+                    <button type="reset">Borrar Datos</button> <!-- Botón para borrar los datos ingresados en el formulario -->
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Sección Pie de página y Redes sociales hecha por Jesus Garcia -->
+
+    <footer id="Contacto">
+
+        <div class="contenedor-footer">
+            <div class="contenido-footer">
+                <h4>Teléfono</h4>
+                <p>+58 123 456 789</p> <!-- Número de teléfono ficticio -->
+            </div>
+            <div class="contenido-footer">
+                <h4>Email</h4>
+                <p>contacto@universidadmomboy.edu.ve</p> <!-- Correo electrónico ficticio -->
+            </div>
+            <div class ="contenido-footer">
+                <h4>Localización</h4>
+                <p>123 Universidad St, Ciudad Ficticia</p> <!-- Ubicación ficticia -->
+            </div>
+        </div>
+
+        <h2 class="titulo-final">Contáctanos</h2> <!-- Título de la sección "Contáctanos" -->
+
+        <div class="redes-sociales">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+
